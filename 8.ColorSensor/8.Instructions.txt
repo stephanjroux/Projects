@@ -1,0 +1,12 @@
+Basic Build:
+============
+- Build the board as per the Fritzing diagram in the root of the project.
+- Place the mini light box over the color sensor.
+- Place each color rascal on the cutout in turn an 
+- check the Serial monitor to see how each color is detected.
+
+Challenge: Rascal color sorter
+==============================
+- Use the learned values to find a way to identify each of the 5 colors
+- You can use Google sheets draw a graph of each rascal colors characteristics to find unique combinations
+  to identify each individual color.

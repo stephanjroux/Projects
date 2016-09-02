@@ -1,0 +1,20 @@
+NOTES: Servos need more power than the Nano can route so make sure you connect 
+extarnal power to the board as per the diagram.
+
+Basic Build:
+============
+- Build the board as per the Fritzing diagram in the root of the project.
+- Open the code in the root folder and upload it to the Arduino.
+- Observe the servo moving as expected.
+
+Challenge: Puzzle Maze Game
+===========================
+Extra parts:
+1) Analog 2-axis Thumb Joystick
+2) Dual Servo Puzzle Game
+
+- Connect the analog joystick to the Nano and check it's outputs on the serial monitor
+- Connect ONE of the game servos to the Nano and calibrate it to limit it's movement 
+  WARNING: it can jam and break the game if both are on and are not limited.
+- Connect the second servo and calibrate it.
+- Use the Joystick to drive the game in the correct orientation and within limits so the ball doesnt fly off the table.

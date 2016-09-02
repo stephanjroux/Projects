@@ -1,0 +1,23 @@
+WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING 
+WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING 
+WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING 
+WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING 
+
+The laser in this project can damage your eyes if you look into it so please be careful where you point it!
+
+Basic Build:
+============
+- Build the board as per the Fritzing diagram in the root of the project.
+- Place the board and Mirror in such a way that the laser reflects off the mirror and back on to the photo resistor.
+- Open the code in the root folder and upload it to the Arduino.
+- Check the Serial monitor to see how the photo resistor behaves when you break the beam.
+
+Challenge:
+==========
+Extra parts:
+1) On-off switch
+2) Active buzzer (not passive)
+
+- Connect the buzzer to the Arduino to act as an alarm when the beam is tripped
+- Wire up the on off switch so you can arm and disarm the alarm
+- Set a siren to go off if the beam is broken while the alarm is activated.

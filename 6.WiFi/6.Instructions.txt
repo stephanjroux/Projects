@@ -1,0 +1,23 @@
+NOTE:  Take careful note of the LEDs orientation. The one side of the LED casing 
+is flat and needs to be orientated correctly as per the diagram. The flat side
+corresponds to the long pins and goes to the negative side of the power rail.
+BUG: The ESP8266 WiFi chip is notoriously sensitive to dirty power so it sometimes 
+needs to be jump started by repeatedly resetting the chip.  When you short the reset 
+wire to ground it resets the chip and you'll see a quick blue flash of the TX led on the chip.  
+Then when you reset the arduino you should get another few flashes of the TX as 
+the chip is configured by the software. If not reset it again, untill it boots properly.  
+Once up dont power it down else you'll need to do this again. You can unplug or reset 
+the arduino as they dont share power.
+
+Basic Build:
+============
+- Build the board as per the Fritzing diagram in the root of the project.
+- Open the code in the root folder and upload it to the Arduino.
+- Get the chip to boot up so that the TX light flashes a few times when you reboot the arduino
+
+Challenge:
+==========
+- Use your cell phone to browse for the ESP Wifi device and connect to it.
+- Check your phones settings under about and status somewhere for the IP address that you were given
+- Open a browser and browse to http://x.x.x.1 (using the first 3 numbers that you got above) 
+- Click on the LED1 and LED2 links and see what happens.

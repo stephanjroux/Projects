@@ -1,0 +1,13 @@
+NOTE:  Take careful note of the LEDs orientation. The one side of the LED casing 
+is flat and needs to be orientated correctly as per the diagram. The flat side
+corresponds to the long pins and goes to the negative side of the power rail.
+
+Basic Build:
+============
+- Build the board as per the Fritzing diagram in the root of the project.
+- Open the code in the root folder and upload it to the Arduino.
+
+Challenge:
+==========
+- Find and install a bluetooth serial terminal app on your phone (I used "Arduino Bluetooth Terminal" by Dinastia)
+- Look at the code and figure out how to switch the LED using your phone.

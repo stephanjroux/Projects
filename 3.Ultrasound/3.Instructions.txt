@@ -1,0 +1,14 @@
+Basic Build:
+============
+- Build the board as per the Fritzing diagram in the root of the project.
+- Open the code in the root folder and upload it to the Arduino.
+- Check the Serial monitor to see output from the ultrasound sensor.
+
+Challenge: Parking Sensor
+=========================
+Extra parts:
+1) KY-006 Passive buzzer
+
+- Connect the buzzer to the Arduino to act as an alarm.
+- Program the buzzer to beep with a higher frequency and quicker interval 
+  as you get closer to the sensor.

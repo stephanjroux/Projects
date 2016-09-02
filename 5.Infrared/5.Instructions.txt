@@ -1,0 +1,21 @@
+NOTE:  Both of these parts look like normal LEDs, however the dark on is a Infrared LED and the clear on is a Phototransistor (gate is triggered with IR light as input) Take careful note of the LED and Phototransistors orientation. The one side of the casing is flat and needs to be orientated correctly as per the diagram. 
+WARNING: Be careful with the model its quite fragile.
+
+Basic Build:
+============
+- Build the board as per the Fritzing diagram in the root of the project.
+- Bend the legs of the IR LED and the Phototransisitor so that the lenses point at eachother with a gap in between.
+- Open the code in the root folder and upload it to the Arduino.
+- Check the Serial monitor while you place your hand or other solid object between the LED and Phototransistor.
+
+Challenge: Build a rotary encoder
+=================================
+Extra parts:
+1) Windmill rotary encoder 
+
+- Remove the IR LED and Photo transistor and their wires from the board. 
+- Plug the windmill header into the board and wire it up to power and 2 input pins
+- Note the yellow wire is the input for the top LED pair and the blue for the bottom pair
+- Turning the blade manually interrupts the LED indivudually
+- Use these 2 inputs to build a rotary encoder than can detect direction and number of revolutions of the mill.
+- Output to serial monitor.

@@ -1,0 +1,16 @@
+NOTE:- This mic circuit only works when you blow on it. Better mic amp circuit is being developed
+
+Basic Build:
+============
+- Build the board as per the Fritzing diagram in the root of the project.
+- Open the code in the root folder and upload it to the Arduino.
+- Check the Serial monitor to see what analog value you get when blowing on the mic.
+
+Challenge:
+==========
+Extra parts:
+1) Adafruit 8x8 bicolor Matrix on LED Backpack
+
+- Connect the LED matrix to the Arduino
+- Program a "Manhattan Graph" that walks from right to left accross the matrix showing the peak value of the mic
+- LED's 6 and under must be green and 7 and 8 must be red

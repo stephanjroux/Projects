@@ -1,0 +1,16 @@
+NOTE:  Take careful note of the LEDs orientation. The one side of the LED casing 
+is flat and needs to be orientated correctly as per the diagram. The flat side
+corresponds to the long pins and goes to the negative side of the power rail.
+
+Basic Build:
+============
+- Build the board as per the Fritzing diagram in the root of the project.
+- Open the code in the root folder and upload it to the Arduino.
+- Check the Serial monitor to see how the encoder values change.
+
+Challenge: LED sweep based on encoder values
+============================================
+- Modify the code to have the LED sweep based on the encoder value. 
+- Each LED represents 10 clicks
+- Come up with a more exciting challenge for this project :-)
+

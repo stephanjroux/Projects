@@ -1,0 +1,16 @@
+Basic Build:
+============
+- Build the board as per the Fritzing diagram in the root of the project.
+- Open the code in the root folder and upload it to the Arduino.
+- Check the Serial monitor to see the accelerometer output when you pick up and tilt the board.
+
+Challenge: Bubble level (Spirit level)
+======================================
+Extra parts:
+1) 0.9" I2C OLED Display
+
+- Connect the OLED display to the Adruino
+- Draw a bubble in the middle of the display that moves when you tilt the board (like a spirit level)
+- Draw a frame and some cross hairs to see when the bubble is dead center
+- Calibrate it so that the bubble moves to the edge of the screens widest part when 
+  the board edge is around 1cm of the table
