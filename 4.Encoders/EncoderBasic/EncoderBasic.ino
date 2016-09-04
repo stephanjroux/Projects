@@ -13,9 +13,12 @@ Adafruit_NeoPixel strip = Adafruit_NeoPixel(4, 2, NEO_GRB);
   pinMode (encoder0PinA,INPUT);
   pinMode (encoder0PinB,INPUT);
    
-  strip.setBrightness(50);
+  strip.setBrightness(20);
   strip.begin();
   strip.setPixelColor(0 ,255,0,0);  
+  strip.setPixelColor(1 ,0,0,0);  
+  strip.setPixelColor(2 ,0,0,0);  
+  strip.setPixelColor(3 ,0,0,0);    
   strip.show();
    
   Serial.begin (115200);

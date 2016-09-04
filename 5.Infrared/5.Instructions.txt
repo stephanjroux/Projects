@@ -1,4 +1,6 @@
-NOTE:  Both of these parts look like normal LEDs, however the dark on is a Infrared LED and the clear on is a Phototransistor (gate is triggered with IR light as input) Take careful note of the LED and Phototransistors orientation. The one side of the casing is flat and needs to be orientated correctly as per the diagram. 
+NOTE:  Both of these parts look like normal LEDs, however the dark one is a Infrared LED and the clear one is a Phototransistor 
+(gate is triggered with IR light as input) Take careful note of the LED and Phototransistors orientation. The one side of the casing 
+is flat and needs to be orientated correctly as per the diagram. 
 WARNING: Be careful with the model its quite fragile.
 
 Basic Build:
