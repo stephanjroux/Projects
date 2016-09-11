@@ -1,6 +1,3 @@
-NOTE:  Take careful note of the LEDs orientation. The one side of the LED casing 
-is flat and needs to be orientated correctly as per the diagram. The flat side
-corresponds to the long pins and goes to the negative side of the power rail.
 
 Basic Build:
 ============
@@ -10,7 +7,12 @@ Basic Build:
 
 Challenge: LED sweep based on encoder values
 ============================================
-- Modify the code to have the LED sweep based on the encoder value. 
+Extra parts:
+1) 4 x APA-106-F8 RGB "Neopixel" addressable LED's
+
+NOTE: Check the pinout of the LEDs on Google to verify the polarity. 
+- Wire up the LED's in series (out pin connected to in on the next)
+- Modify the code to have the LED sweep on based on the encoder value. 
 - Each LED represents 10 clicks
-- Come up with a more exciting challenge for this project :-)
+- Debounce the rotary encoder
 

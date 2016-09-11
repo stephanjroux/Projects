@@ -7,6 +7,6 @@ Basic Build:
 
 Challenge: Rascal color sorter
 ==============================
-- Use the learned values to find a way to identify each of the 5 colors
+- Use the learned values to find a way to identify each of the colors
 - You can use Google sheets draw a graph of each rascal colors characteristics to find unique combinations
   to identify each individual color.
