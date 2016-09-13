@@ -1,9 +1,9 @@
 #!/bin/bash
 
 cd /home/pi/.GitFiles/Arduino123
-git pull
+sudo git pull
 cd ../Projects
-git pull
+sudo git pull
 clear
 read -r -p "Do you want to create a Workspace? (y/n): " REPLY
 REPLY=${REPLY,,}
