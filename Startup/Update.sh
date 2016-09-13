@@ -1,10 +1,9 @@
 #!/bin/bash
 
-cd /home/pi/.GitFiles
-rm -rf Arduino123
-git clone https://github.com/stephanjroux/Arduino123
-rm -rf Projects
-git clone https://github.com/stephanjroux/Projects
+cd /home/pi/.GitFiles/Arduino123
+git pull
+cd ../Projects
+git pull
 clear
 read -r -p "Do you want to create a Workspace? (y/n): " REPLY
 REPLY=${REPLY,,}
