@@ -5,6 +5,8 @@ WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING 
 
 The laser in this project can damage your eyes if you look into it so please be careful where you point it!
 
+NOTE: The polarity of the laser diode on the Fritzing is incorrect. Use the signage on the part not the drawing.
+
 Basic Build:
 ============
 - Build the board as per the Fritzing diagram in the root of the project.
