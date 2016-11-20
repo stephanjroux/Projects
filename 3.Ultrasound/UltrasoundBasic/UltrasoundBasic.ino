@@ -17,5 +17,5 @@ void loop ()  {
   Serial.print("Ping: ");
   Serial.print(pingVal); 
   Serial.println("cm");
-  pause(300);
+  delay(300);
   }
