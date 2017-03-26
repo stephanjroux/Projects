@@ -7,4 +7,5 @@ void loop()
 {
    Serial.print("Mic: ");Serial.print(analogRead(6));
    Serial.println();
+   delay(50);
 }
