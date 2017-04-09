@@ -11,3 +11,4 @@ Challenge:
 ==========
 - Find and install a bluetooth serial terminal app on your phone (I used "Arduino Bluetooth Terminal" by Dinastia)
 - Look at the code and figure out how to switch the LED using your phone.
+--Note: Pairing code for HC-06 is 1234
