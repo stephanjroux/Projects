@@ -14,7 +14,7 @@ boolean toggle1, toggle2 = 0;
 
 void setup()
 {
-  Serial.begin(115200);
+  Serial.begin(57600);
   esp8266.begin(9600); // your esp's baud rate might be different
   
   strip.begin();
@@ -22,7 +22,7 @@ void setup()
   strip.setPixelColor(0 ,0,0,0);
   strip.setPixelColor(1 ,0,0,0);
   strip.show();
-  
+
   sendData("AT+RST\r\n",2000,DEBUG); // reset module
   sendData("AT+CWMODE=2\r\n",1000,DEBUG); // configure as access point
   sendData("AT+CIFSR\r\n",1000,DEBUG); // get ip address
@@ -78,7 +78,8 @@ void loop()
 String sendData(String command, const int timeout, boolean debug)
 {
     String response = "";
-    
+
+    Serial.print(command);
     esp8266.print(command); // send the read character to the esp8266
     
     long int time = millis();
@@ -93,10 +94,10 @@ String sendData(String command, const int timeout, boolean debug)
         response+=c;
       }  
     }
-    
+        
     if(debug)
     {
-      Serial.print(response);
+      Serial.println(response);
     }
     
     return response;

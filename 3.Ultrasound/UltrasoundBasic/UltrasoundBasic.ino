@@ -1,8 +1,8 @@
 #include <NewPing.h>
 
-#define TRIGGER_PIN  2
-#define ECHO_PIN     3
-#define MAX_DISTANCE 200  // Maximum distance in cms - max 400
+#define TRIGGER_PIN  A2
+#define ECHO_PIN     A3
+#define MAX_DISTANCE 100  // Maximum distance in cms - max 400
 
 NewPing sonar(TRIGGER_PIN, ECHO_PIN, MAX_DISTANCE); // NewPing setup of pins and maximum distance.
  
