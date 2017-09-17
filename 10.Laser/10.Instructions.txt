@@ -1,7 +1,5 @@
 WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING 
 WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING 
-WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING 
-WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING 
 
 The laser in this project can damage your eyes if you look into it so please be careful where you point it!
 
@@ -19,7 +17,9 @@ Challenge:
 Extra parts:
 1) On-off switch
 2) Active buzzer (not passive)
+3) Multicolor (APA106 Neopixel LED)
 
 - Connect the buzzer to the Arduino to act as an alarm when the beam is tripped
 - Wire up the on off switch so you can arm and disarm the alarm
 - Set a siren to go off if the beam is broken while the alarm is activated.
+- Connect up the LED to indicate green when system is disarmed, solid red when armed and flashing red when alarm is triggered.
