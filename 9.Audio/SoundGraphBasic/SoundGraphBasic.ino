@@ -5,7 +5,9 @@ void setup()
  
 void loop() 
 {
-   Serial.print("Mic: ");Serial.print(analogRead(6));
-   Serial.println();
-   delay(50);
+      int val = analogRead(A6);
+      Serial.print("Mic: "); Serial.print(val);Serial.print(" "); 
+      for (int x=500; x<val;x++) Serial.print(".");
+      Serial.println();
+      delay(20);
 }

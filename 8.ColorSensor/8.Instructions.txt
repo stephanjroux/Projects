@@ -2,11 +2,9 @@ Basic Build:
 ============
 - Build the board as per the Fritzing diagram in the root of the project.
 - Place the mini light box over the color sensor.
-- Place each color rascal on the cutout in turn an 
+- Place each color rascal on the cutout in turn and, 
 - check the Serial monitor to see how each color is detected.
 
 Challenge: Rascal color sorter
 ==============================
-- Use the learned values to find a way to identify each of the colors
-- You can use Google sheets draw a graph of each rascal colors characteristics to find unique combinations
-  to identify each individual color.
+- Light up the Neopixel RGB LED with the same color that is detected by the sensor

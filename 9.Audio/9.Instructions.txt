@@ -1,4 +1,4 @@
-NOTE:- This mic circuit only works when you blow on it. Better mic amp circuit is being developed
+NOTE:- Blowing on the mic is the easiest way to get a steady reading.
 
 Basic Build:
 ============
@@ -9,8 +9,8 @@ Basic Build:
 Challenge:
 ==========
 Extra parts:
-1) Adafruit 8x8 bicolor Matrix on LED Backpack
+1) Adafriuit "Bi-Color 8x8 Matrix" mounted on an "Adafruit LED Backpack" 
 
-- Connect the LED matrix to the Arduino
-- Program a "Manhattan Graph" that walks from right to left accross the matrix showing the peak value of the mic
-- LED's 6 and under must be green and 7 and 8 must be red
+- Connect the LED matrix to the Arduino using I2C 
+- Program a Bar Graph that "walks" from right to left accross the matrix showing the peak value of the mic.
+- LED's 6 and under must be green and 7 and 8 must be red.
